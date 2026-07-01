@@ -15,4 +15,4 @@ As well as showing demographic differences in mental health between facotrs such
 The first page of the report looks at general demographic patterns with mental health. Including comparison of average age of having a self identified mental health disorder and proportion of people with a mental health disorder for different genders and work locations. 
 Stand out findings include a high proportion of people identified as trans-male and trans female has a mental health disorder compared to those identified as men and women.
 There was also a high proportion of people with mental health disorders among developing countries such as Cameroon, Ecuador and Guatemala among others. However this finding could be skewed by a small sample size for individual countries. This is looked at further in the 4th page comparing mental health between MEDC and LEDC countries. 
-<img width="1919" height="1027" alt="Image" src="https://github.com/user-attachments/assets/00b43264-a30a-430b-aa7c-298967ddeb25" />
+<img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/84124db9-203c-479b-9d5c-577d910db6d6" />
