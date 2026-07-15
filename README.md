@@ -18,8 +18,13 @@ The rows of each column were processed including string reformatting, removing m
 The answers from the survey question  'do you believe you have a mental health condition' were used to conditionaly replace the missing values of "Do you believe your productivity is ever affected by a mental health issue?"
 If there was a missing value in the productivity question and they answered 'no' to having a mental health condition then the missing value was replaced with 'not applicable to me' if they answered 'yes' to having a mental health condition then "no" was used as the answer to the productivity question.
 
+
+***Power BI***
 Data was then loaded into power BI to answer questions from the data including: Has employer's handling of mental health improved over time as rated by employees? How many working hours were lost due to poor mental health?
 Demographic differences in mental health between factors such as gender, age and location were also assessed. 
+
+For the page on the effects of poor mental health in productivity, a measure was created to calculate estimates of hours wasted. The survey question 'what percentage of the work day was lost to poor mental health' was used to estimate the total hours lost to poor mental health per day. Answers ranged from 1-25% up to 76-100%.
+These lower and upper bounds were converted in to upper, middle and lower estimates of hours wasted per day. This was done by creating conditional columns multiplying 8 hours as an assumed average work day by the lower bound numbers in one column and the upper bounds in another. For example a response of 1-25% wasted work day would be converted into 8*0.01 (0.08) for the lower column and 8*0.25(2) for the upper column.
 
 
 **1.Demographic Differences**
@@ -40,9 +45,7 @@ Employees from larger businesses rated their companies as providing more health 
 
 
 **3. Impact of Mental Health on Productivity**
-This page looks at the percentage of the work day that is lost to mental health for each years survey and the number of hours per day that are lost to poor mental health for each gender.
-A measure was created to calculate estimates of hours wasted from the survey question 'what percentage of the work day was lost to poor mental health' Answers ranged from 1-25% up to 76-100% 
-These lower and upper bounds were converted in to upper, middle and lower estimates of hours wasted per day. This was done by creating conditional columns multiplying 8 hours as an assumed average work day by the lower bound numbers in one column and the upper bounds in another. For example a response of 1-25% wasted work day would be converted into 8*0.01 (0.08) for the lower column and 8*0.25(2) for the upper column. 
+This page looks at the percentage of the work day that is lost to mental health for each years survey and the number of hours per day that are lost to poor mental health for each gender. 
 The most notable finding from this page is that men with mental health issues rated losing a much higher percentage of the work day to poor mental health than other genders with mental health issues. This could be explained by the differences in which men and women process mental health issues many studies show that men tend to externalise their problems indicated by higher rates of suicide and outwards projected behaviour such as violence, where as women tend to internalise their mental health problems looking inward with more internally directed behaviours. This potentially could explain these differences. 
 Another potential link to the effect of the pandemic on mental health can be seen as the percentage of the work day lost to mental health peaks around 2020. This coincides with an increase in working from home during the pandemic and many studies have shown the pandemic exacerbated mental health issues.
 <img width="1919" height="1032" alt="Image" src="https://github.com/user-attachments/assets/c0405eec-e987-491f-8246-607493c6da33" />
