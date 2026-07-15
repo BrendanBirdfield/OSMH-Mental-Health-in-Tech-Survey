@@ -1,5 +1,11 @@
 # OSMH-Mental-Health-in-Tech-Survey
-An interactive report made in power BI looking at Mental Health in the tech industry. Various factors were assessed: Comparison of mental health in various countries, Employers attitudes and approaches to mental health such as mental health care coverage, employees willingness to discuss mental health issues with supervisors.
+
+***Summary***
+An interactive report made in Power BI showing results from multiple years of the OSMH Mental Health in Tech survey. To focus the project a subset of questions were visualised and pages focussing on 4 key areas were created: 
+- Demographic differences in mental health: age, gender and location
+- Employers attitude and approaches to mental health including factors like mental health care coverage, resources provided to support employees mental health and employees willingness to speak to supervisors about mental health concerns
+- How much work time was lost to poor mental health both proportionaly and how many hours per day were lost between factors like gender changes overtime
+- Differences in mental health between LEDC and MEDC countries
 
 
 Data was downloaded for each year of the OSMH mental health in tech survey: https://osmhhelp.org/research.html.
