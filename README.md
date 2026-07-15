@@ -9,7 +9,7 @@ An interactive report made in Power BI showing results from multiple years of th
 - Differences in mental health between LEDC and MEDC countries
 
 
-***Data Collection and Processing:***
+***Data Collection and Processing: Python:***
 
 Data was downloaded as a csv for each year of the OSMH mental health in tech survey from: https://osmhhelp.org/research.html.
 This data was then imported and processed in python. Each year's survey was loaded as a seperate CSV. A selection of survey questions were selected and each column name representing each question was processed to be consitent in format because some of the same questions were reworded over several years. 
@@ -19,7 +19,8 @@ The answers from the survey question  'do you believe you have a mental health c
 If there was a missing value in the productivity question and they answered 'no' to having a mental health condition then the missing value was replaced with 'not applicable to me' if they answered 'yes' to having a mental health condition then "no" was used as the answer to the productivity question.
 
 
-***Power BI***
+***Data Visualisation: Power BI***
+
 Data was then loaded into power BI to answer questions from the data including: Has employer's handling of mental health improved over time as rated by employees? How many working hours were lost due to poor mental health?
 Demographic differences in mental health between factors such as gender, age and location were also assessed. 
 
