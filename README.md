@@ -1,6 +1,7 @@
 # OSMH-Mental-Health-in-Tech-Survey
 
 ***Summary***
+
 An interactive report made in Power BI showing results from multiple years of the OSMH Mental Health in Tech survey. Data was downloaded from OSMH mental health site multiple years of data was cleaned and joined in python and then imported into Power BI. To focus the project a subset of questions were visualised and pages focussing on 4 key areas were created: 
 - Demographic differences in mental health: age, gender and location
 - Employers attitude and approaches to mental health including factors like mental health care coverage, resources provided to support employees mental health and employees willingness to speak to supervisors about mental health concerns
