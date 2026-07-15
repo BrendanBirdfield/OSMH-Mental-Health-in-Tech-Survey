@@ -1,6 +1,6 @@
 # OSMH-Mental-Health-in-Tech-Survey
 
-***Summary***
+***Summary:***
 
 An interactive report made in Power BI showing results from multiple years of the OSMH Mental Health in Tech survey. Data was downloaded from OSMH mental health site multiple years of data was cleaned and joined in python and then imported into Power BI. To focus the project a subset of questions were visualised and pages focussing on 4 key areas were created: 
 - Demographic differences in mental health: age, gender and location
@@ -9,7 +9,7 @@ An interactive report made in Power BI showing results from multiple years of th
 - Differences in mental health between LEDC and MEDC countries
 
 
-***Data Collection and Processing***
+***Data Collection and Processing:***
 
 Data was downloaded as a csv for each year of the OSMH mental health in tech survey from: https://osmhhelp.org/research.html.
 This data was then imported and processed in python. Each year's survey was loaded as a seperate CSV. A selection of survey questions were selected and each column name representing each question was processed to be consitent in format because some of the same questions were reworded over several years. 
@@ -19,8 +19,10 @@ The answers from the survey question  'do you believe you have a mental health c
 If there was a missing value in the productivity question and they answered 'no' to having a mental health condition then the missing value was replaced with 'not applicable to me' if they answered 'yes' to having a mental health condition then "no" was used as the answer to the productivity question.
 
 Data was then loaded into power BI to answer questions from the data including: Has employer's handling of mental health improved over time as rated by employees? How many working hours were lost due to poor mental health?
-Also showing demographic differences in mental health between facotrs such as gender, age and location. 
+Demographic differences in mental health between factors such as gender, age and location were also assessed. 
 
+
+**1.Demographic Differences**
 The first page of the report looks at general demographic patterns with mental health. Including: comparison of average age of having a self identified mental health disorder and proportion of people with a mental health disorder for different genders and work locations. 
 Stand out findings included a higher proportion of people identified as trans-male and trans female having a mental health disorder compared to those identified as men and women.
 There was also a high proportion of people with mental health disorders among developing countries such as Cameroon, Ecuador and Guatemala among others. However this finding could be skewed by a small sample size for individual countries. This is looked at further in the 4th page comparing mental health between MEDC and LEDC countries. 
