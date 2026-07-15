@@ -28,7 +28,7 @@ For the page on the effects of poor mental health in productivity, a measure was
 These lower and upper bounds were converted in to upper, middle and lower estimates of hours wasted per day. This was done by creating conditional columns multiplying 8 hours as an assumed average work day by the lower bound numbers in one column and the upper bounds in another. For example a response of 1-25% wasted work day would be converted into 8*0.01 (0.08) for the lower column and 8*0.25(2) for the upper column.
 
 
-**1.Demographic Differences**
+**1. Demographic Differences**
 
 This report page looks at general demographic patterns with regard to mental health. Comparison of average age of having a self identified mental health disorder and proportion of people with a mental health disorder for different genders and work locations. 
 Stand out findings included a higher proportion of people identified as trans-male and trans female having a mental health disorder compared to those identified as men and women.
@@ -36,7 +36,7 @@ There was also a high proportion of people with mental health disorders among de
 <img width="1919" height="1029" alt="Image" src="https://github.com/user-attachments/assets/84124db9-203c-479b-9d5c-577d910db6d6" />
 
 
-**2.Employers Approach to Mental Health**
+**2. Employers Approach to Mental Health**
 
 How employer's approaches to mental health have changed over time and comparisons of business size and these approaches. This included mental health care coverage, providing mental health resources and how comfortable employees felt approaching their direct supervisors about their mental health concerns.
 Mental health care coverage seemed to peak around 2018 and drop off around 2020, although this is not an exact measure of employers mental health care coverage as all values are self reported from employees. 
@@ -54,7 +54,7 @@ Another potential link to the effect of the pandemic on mental health can be see
 <img width="1919" height="1032" alt="Image" src="https://github.com/user-attachments/assets/c0405eec-e987-491f-8246-607493c6da33" />
 
 
-**LEDC vs MEDC Countries**
+**4. LEDC vs MEDC Countries**
 
 Here mental health between MEDC and LEDC countries was compared. Groups were created within power BI to seperate countries into MEDC and LEDC these were then used to compare proportion of employees with mental health disorders and mental health care coverage and percentage of work day lost. 
 The most interesting finding shows that whilst MEDC countries showed higher rates of mental health disorders, LEDC countries showed a higher percentage of wasted work day to mental health problems. This may be due to employees from MEDC countries having better access to mental health care coverage allowing them to better manage their mental health disorders and those disorders being less disruptive to their work and life.
