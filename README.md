@@ -37,6 +37,7 @@ There was also a high proportion of people with mental health disorders among de
 
 
 **2.Employers Approach to Mental Health**
+
 How employer's approaches to mental health have changed over time and comparisons of business size and these approaches. This included mental health care coverage, providing mental health resources and how comfortable employees felt approaching their direct supervisors about their mental health concerns.
 Mental health care coverage seemed to peak around 2018 and drop off around 2020, although this is not an exact measure of employers mental health care coverage as all values are self reported from employees. 
 How comfortable employees felt going to supervisors with mental health concerns also dipped around 2020. This potentially could be impacted by covid as more employees worked from home and had less face to face contact with their supervisors. 
@@ -46,6 +47,7 @@ Employees from larger businesses rated their companies as providing more health 
 
 
 **3. Impact of Mental Health on Productivity**
+
 This page looks at the percentage of the work day that is lost to mental health for each years survey and the number of hours per day that are lost to poor mental health for each gender. 
 The most notable finding from this page is that men with mental health issues rated losing a much higher percentage of the work day to poor mental health than other genders with mental health issues. This could be explained by the differences in which men and women process mental health issues many studies show that men tend to externalise their problems indicated by higher rates of suicide and outwards projected behaviour such as violence, where as women tend to internalise their mental health problems looking inward with more internally directed behaviours. This potentially could explain these differences. 
 Another potential link to the effect of the pandemic on mental health can be seen as the percentage of the work day lost to mental health peaks around 2020. This coincides with an increase in working from home during the pandemic and many studies have shown the pandemic exacerbated mental health issues.
@@ -53,6 +55,7 @@ Another potential link to the effect of the pandemic on mental health can be see
 
 
 **LEDC vs MEDC Countries**
+
 Here mental health between MEDC and LEDC countries was compared. Groups were created within power BI to seperate countries into MEDC and LEDC these were then used to compare proportion of employees with mental health disorders and mental health care coverage and percentage of work day lost. 
 The most interesting finding shows that whilst MEDC countries showed higher rates of mental health disorders, LEDC countries showed a higher percentage of wasted work day to mental health problems. This may be due to employees from MEDC countries having better access to mental health care coverage allowing them to better manage their mental health disorders and those disorders being less disruptive to their work and life.
 A strong lesson can be taken from this that companies providing mental health care coverage and support can potentially improve the productivity of their workers. 
